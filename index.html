@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Noval</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+        <h1>Noval</h1>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <h2>Halo, Saya Noval</h2>
+        <p>Web Developer | Designer | Programmer</p>
+        <a href="#portfolio">Lihat Karya Saya</a>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about">
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" alt="Foto Profil">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang pengembang web yang berfokus pada pembuatan aplikasi modern dan desain antarmuka yang
+            menarik. Saya senang belajar hal baru dan berbagi pengetahuan melalui proyek kreatif.</p>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section id="portfolio">
+        <h2 style="text-align:center;">Proyek Terbaru</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504691342899-46f4bc77a6b4" alt="Project 1">
+                <div class="card-content">
+                    <h3>Website Cafe</h3>
+                    <p>Situs web modern untuk memesan menu cafe secara online.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Project 2">
+                <div class="card-content">
+                    <h3>Aplikasi Inventori</h3>
+                    <p>Sistem manajemen barang gudang berbasis Laravel & Vue.js.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7" alt="Project 3">
+                <div class="card-content">
+                    <h3>Portofolio Pribadi</h3>
+                    <p>Desain personal portofolio yang menampilkan karya dan profil saya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <form>
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea rows="5" placeholder="Pesan Anda..." required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Noval. Dibuat dengan ❤️ oleh <a href="#hero">Noval</a>.</p>
+    </footer>
+
+</body>
+
+</html>
